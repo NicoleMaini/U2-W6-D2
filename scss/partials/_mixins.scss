@@ -1,25 +1,25 @@
-@import './color';
+@import "./color";
 
-@mixin title-big{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.5rem;
-    color: $white;
-};
+@mixin title-big {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5rem;
+  color: $white;
+}
 
 @mixin floating {
-    border-radius: 15px;
-    box-shadow: 3px, 3px, 10px, 7px $black;
-    border: 1px solid $grey;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px 2px $grey;
+  border: 1px solid $grey;
 }
 
-@mixin containerImg ($w, $h){
-    width: $w;
-    height: $h;
-    overflow: hidden;
+@mixin containerImg($w, $h) {
+  width: $w;
+  height: $h;
+  overflow: hidden;
 }
 
-@mixin img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+@mixin img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
