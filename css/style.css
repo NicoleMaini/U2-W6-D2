@@ -1,0 +1,185 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, span {
+  margin: 0;
+  padding: 0;
+}
+
+.color-b {
+  background-color: #0e6cff;
+  color: rgb(232, 226, 226);
+}
+
+.color-g {
+  background-color: #4caf50;
+  color: rgb(232, 226, 226);
+}
+
+.color-y {
+  background-color: #ff8700;
+  color: rgb(232, 226, 226);
+}
+
+.pt-brPoint {
+  padding: 0.5rem;
+}
+
+.pb-brPoint {
+  padding: 0.5rem;
+}
+
+.ps-brPoint {
+  padding: 0.5rem;
+}
+
+.pe-brPoint {
+  padding: 0.5rem;
+}
+
+.mt-brPoint {
+  padding: 0.5rem;
+}
+
+.mb-brPoint {
+  padding: 0.5rem;
+}
+
+.ms-brPoint {
+  padding: 0.5rem;
+}
+
+.me-brPoint {
+  padding: 0.5rem;
+}
+
+.pt-brPoint {
+  padding: 1rem;
+}
+
+.pb-brPoint {
+  padding: 1rem;
+}
+
+.ps-brPoint {
+  padding: 1rem;
+}
+
+.pe-brPoint {
+  padding: 1rem;
+}
+
+.mt-brPoint {
+  padding: 1rem;
+}
+
+.mb-brPoint {
+  padding: 1rem;
+}
+
+.ms-brPoint {
+  padding: 1rem;
+}
+
+.me-brPoint {
+  padding: 1rem;
+}
+
+.pt-brPoint {
+  padding: 1.3rem;
+}
+
+.pb-brPoint {
+  padding: 1.3rem;
+}
+
+.ps-brPoint {
+  padding: 1.3rem;
+}
+
+.pe-brPoint {
+  padding: 1.3rem;
+}
+
+.mt-brPoint {
+  padding: 1.3rem;
+}
+
+.mb-brPoint {
+  padding: 1.3rem;
+}
+
+.ms-brPoint {
+  padding: 1.3rem;
+}
+
+.me-brPoint {
+  padding: 1.3rem;
+}
+
+.pt-brPoint {
+  padding: 1.5rem;
+}
+
+.pb-brPoint {
+  padding: 1.5rem;
+}
+
+.ps-brPoint {
+  padding: 1.5rem;
+}
+
+.pe-brPoint {
+  padding: 1.5rem;
+}
+
+.mt-brPoint {
+  padding: 1.5rem;
+}
+
+.mb-brPoint {
+  padding: 1.5rem;
+}
+
+.ms-brPoint {
+  padding: 1.5rem;
+}
+
+.me-brPoint {
+  padding: 1.5rem;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  color: rgb(232, 226, 226);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul li {
+  margin-left: 3rem;
+}
+
+nav div {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+nav img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

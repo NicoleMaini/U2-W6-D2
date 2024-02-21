@@ -1,0 +1,29 @@
+$myPaddingMargin: (sm: 0.5rem, md: 1rem, lg: 1.3rem, xl: 1.5rem);
+
+@each $brPoint, $value in $myPaddingMargin{
+    .pt-#{brPoint}{
+        padding: $value;
+    };
+    .pb-#{brPoint}{
+        padding: $value;
+    };
+    .ps-#{brPoint}{
+        padding: $value;
+    };
+    .pe-#{brPoint}{
+        padding: $value;
+    };
+    .mt-#{brPoint}{
+        padding: $value;
+    };
+    .mb-#{brPoint}{
+        padding: $value;
+    };
+    .ms-#{brPoint}{
+        padding: $value;
+    };
+    .me-#{brPoint}{
+        padding: $value;
+    };
+
+};

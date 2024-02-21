@@ -1,0 +1,33 @@
+@import './partials/reset';
+@import './partials/animation';
+@import './partials/button';
+@import './partials/color';
+@import './partials/font';
+@import './partials/mixins';
+@import './partials/spacings';
+
+h1{
+    @include title-big;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    li {
+        margin-left: 3rem;
+    }
+}
+
+nav div{
+    @include containerImg(80px,80px)
+}
+nav img{
+    @include img
+}
+

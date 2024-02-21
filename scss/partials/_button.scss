@@ -1,0 +1,11 @@
+@import './color';
+
+$list-color: (b: $blue, g: $green, y: $yellow);
+
+
+@each $class, $value in $list-color{
+
+    .color-#{$class}
+       { background-color: $value;
+         color: $white;}
+};
