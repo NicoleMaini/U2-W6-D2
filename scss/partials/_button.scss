@@ -7,5 +7,10 @@ $list-color: (b: $blue, g: $green, y: $yellow);
 
     .color-#{$class}
        { background-color: $value;
-         color: $white;}
+         color: $white;
+        border-radius: 5px;
+        border: none;
+        box-shadow: none;
+        width: 10%;
+        cursor: pointer;}
 };

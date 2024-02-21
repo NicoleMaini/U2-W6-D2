@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, div, span {
+body, h1, h2, h3, h4, h5, h6, p, div, span {
   margin: 0;
   padding: 0;
 }
@@ -10,149 +10,196 @@ h1, h2, h3, h4, h5, h6, p, div, span {
 .color-b {
   background-color: #0e6cff;
   color: rgb(232, 226, 226);
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  width: 10%;
+  cursor: pointer;
 }
 
 .color-g {
   background-color: #4caf50;
   color: rgb(232, 226, 226);
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  width: 10%;
+  cursor: pointer;
 }
 
 .color-y {
   background-color: #ff8700;
   color: rgb(232, 226, 226);
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  width: 10%;
+  cursor: pointer;
 }
 
-.pt-brPoint {
+.p-sm {
   padding: 0.5rem;
 }
 
-.pb-brPoint {
-  padding: 0.5rem;
+.pt-sm {
+  padding-top: 0.5rem;
 }
 
-.ps-brPoint {
-  padding: 0.5rem;
+.pb-sm {
+  padding-bottom: 0.5rem;
 }
 
-.pe-brPoint {
-  padding: 0.5rem;
+.ps-sm {
+  padding-left: 0.5rem;
 }
 
-.mt-brPoint {
-  padding: 0.5rem;
+.pe-sm {
+  padding-right: 0.5rem;
 }
 
-.mb-brPoint {
-  padding: 0.5rem;
+.m-sm {
+  margin: 0.5rem;
 }
 
-.ms-brPoint {
-  padding: 0.5rem;
+.mt-sm {
+  margin-top: 0.5rem;
 }
 
-.me-brPoint {
-  padding: 0.5rem;
+.mb-sm {
+  margin-bottom: 0.5rem;
 }
 
-.pt-brPoint {
+.ms-sm {
+  margin-left: 0.5rem;
+}
+
+.me-sm {
+  margin-right: 0.5rem;
+}
+
+.p-md {
   padding: 1rem;
 }
 
-.pb-brPoint {
-  padding: 1rem;
+.pt-md {
+  padding-top: 1rem;
 }
 
-.ps-brPoint {
-  padding: 1rem;
+.pb-md {
+  padding-bottom: 1rem;
 }
 
-.pe-brPoint {
-  padding: 1rem;
+.ps-md {
+  padding-left: 1rem;
 }
 
-.mt-brPoint {
-  padding: 1rem;
+.pe-md {
+  padding-right: 1rem;
 }
 
-.mb-brPoint {
-  padding: 1rem;
+.m-md {
+  margin: 1rem;
 }
 
-.ms-brPoint {
-  padding: 1rem;
+.mt-md {
+  margin-top: 1rem;
 }
 
-.me-brPoint {
-  padding: 1rem;
+.mb-md {
+  margin-bottom: 1rem;
 }
 
-.pt-brPoint {
+.ms-md {
+  margin-left: 1rem;
+}
+
+.me-md {
+  margin-right: 1rem;
+}
+
+.p-lg {
   padding: 1.3rem;
 }
 
-.pb-brPoint {
-  padding: 1.3rem;
+.pt-lg {
+  padding-top: 1.3rem;
 }
 
-.ps-brPoint {
-  padding: 1.3rem;
+.pb-lg {
+  padding-bottom: 1.3rem;
 }
 
-.pe-brPoint {
-  padding: 1.3rem;
+.ps-lg {
+  padding-left: 1.3rem;
 }
 
-.mt-brPoint {
-  padding: 1.3rem;
+.pe-lg {
+  padding-right: 1.3rem;
 }
 
-.mb-brPoint {
-  padding: 1.3rem;
+.m-lg {
+  margin: 1.3rem;
 }
 
-.ms-brPoint {
-  padding: 1.3rem;
+.mt-lg {
+  margin-top: 1.3rem;
 }
 
-.me-brPoint {
-  padding: 1.3rem;
+.mb-lg {
+  margin-bottom: 1.3rem;
 }
 
-.pt-brPoint {
+.ms-lg {
+  margin-left: 1.3rem;
+}
+
+.me-lg {
+  margin-right: 1.3rem;
+}
+
+.p-xl {
   padding: 1.5rem;
 }
 
-.pb-brPoint {
-  padding: 1.5rem;
+.pt-xl {
+  padding-top: 1.5rem;
 }
 
-.ps-brPoint {
-  padding: 1.5rem;
+.pb-xl {
+  padding-bottom: 1.5rem;
 }
 
-.pe-brPoint {
-  padding: 1.5rem;
+.ps-xl {
+  padding-left: 1.5rem;
 }
 
-.mt-brPoint {
-  padding: 1.5rem;
+.pe-xl {
+  padding-right: 1.5rem;
 }
 
-.mb-brPoint {
-  padding: 1.5rem;
+.m-xl {
+  margin: 1.5rem;
 }
 
-.ms-brPoint {
-  padding: 1.5rem;
+.mt-xl {
+  margin-top: 1.5rem;
 }
 
-.me-brPoint {
-  padding: 1.5rem;
+.mb-xl {
+  margin-bottom: 1.5rem;
+}
+
+.ms-xl {
+  margin-left: 1.5rem;
+}
+
+.me-xl {
+  margin-right: 1.5rem;
 }
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(232, 226, 226);
 }
 
@@ -175,8 +222,67 @@ nav div {
   height: 80px;
   overflow: hidden;
 }
-
 nav img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.container-hero {
+  margin: 0;
+  width: 100%;
+  background-color: #640fc5;
+}
+
+.container-hero-card {
+  display: flex;
+}
+
+.container-hero-img {
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 3px, 3px, 10px, 7px rgb(18, 17, 17);
+  border: 1px solid rgb(99, 98, 98);
+}
+.container-hero-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  width: 100%;
+  color: rgb(232, 226, 226);
+}
+
+.container-hero-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 6.2rem;
+}
+.container-hero-btn button:hover {
+  scale: 1.2;
+  transition: 0.2s;
+  box-shadow: 1px 1px 4spx 1px rgb(99, 98, 98);
+}
+
+.image-small {
+  display: flex;
+}
+.image-small div {
+  width: 25%;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 3px, 3px, 10px, 7px rgb(18, 17, 17);
+  border: 1px solid rgb(99, 98, 98);
+  margin: 1.5rem;
+}
+.image-small img {
   height: 100%;
   width: 100%;
   object-fit: cover;
