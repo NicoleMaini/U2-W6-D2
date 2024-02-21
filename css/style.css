@@ -203,12 +203,6 @@ h1 {
   color: rgb(232, 226, 226);
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 ul {
   display: flex;
   list-style-type: none;
@@ -217,6 +211,11 @@ ul li {
   margin-left: 3rem;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav div {
   width: 80px;
   height: 80px;
@@ -233,6 +232,15 @@ nav img {
   margin: 0;
   width: 100%;
   background-color: #640fc5;
+  animation: fade-in 2s 0.2s forwards;
+}
+@keyframes fade-in {
+  from {
+    width: 50%;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .container-hero-card {
@@ -258,11 +266,16 @@ p {
   color: rgb(232, 226, 226);
 }
 
+.container-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container-hero-btn {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 6.2rem;
 }
 .container-hero-btn button:hover {
   scale: 1.2;

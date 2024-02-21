@@ -1,0 +1,12 @@
+@mixin animation {
+  @keyframes fade-in {
+    from {
+      width: 50%;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+  animation: fade-in 2s 0.2s forwards;
+}
